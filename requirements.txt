@@ -1,0 +1,11 @@
+fastapi
+sklearn
+pandas
+sqlalchemy
+uvicorn
+pydantic
+urllib3
+uvloop
+httptools
+psycopg2-binary
+mysql-connector-python
