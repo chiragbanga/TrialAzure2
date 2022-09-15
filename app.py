@@ -49,7 +49,7 @@ def get_db():
 
 @app.post('/predict')
 def predict(data : request_body, db: Session= Depends(get_db)):
-    test_model=models.Product()
+    test_model=models.fastapi_app()
     test_data=[[
         data.Weight,
         data.Length1,

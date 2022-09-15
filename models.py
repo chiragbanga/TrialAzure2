@@ -1,6 +1,6 @@
 from sqlalchemy import Column,Integer,String,Float
 from database import Base
-class Product(Base):
+class fastapi_app(Base):
     __tablename__='Fishtestdata'
     id=Column(Integer,primary_key=True,index=True)
     Species=Column(String(20))
